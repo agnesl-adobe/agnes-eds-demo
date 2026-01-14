@@ -1,5 +1,2 @@
 mountpoints:
-  /:
-    url: "https://author-p71057-e903632.adobeaemcloud.com/bin/franklin.delivery/vaneeghemk/aem-boilerplate-xwalk/main"
-    type: "markup"
-    suffix: ".html"
+  /: https://adobe.sharepoint.com/:f:/r/sites/agnes-test/Shared%20Documents/agnes-eds-demo?csf=1&web=1&e=wM4aI2

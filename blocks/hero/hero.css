@@ -1,0 +1,44 @@
+.hero-container .hero-wrapper {
+  max-width: unset;
+  padding: 0;
+}
+
+.hero {
+  position: relative;
+  padding: 40px 24px;
+  min-height: 300px;
+}
+
+.hero h1, .hero h2, .hero h3, .hero h4, .hero h5, .hero h6, .hero p {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero.text-white h1, .hero.text-white h2, .hero.text-white h3, .hero.text-white h4, .hero.text-white h5, .hero.text-white h6, .hero.text-white p {
+  color: white;
+}
+
+.hero.text-black h1, .hero.text-black h2, .hero.text-black h3, .hero.text-black h4, .hero.text-black h5, .hero.text-black h6, .hero.text-black p {
+  color: black;
+}
+
+.hero picture {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+
+.hero img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+@media (width >= 900px) {
+  .hero {
+    padding: 40px 32px;
+  }
+}

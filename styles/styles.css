@@ -12,12 +12,12 @@
 
 :root {
   /* colors */
-  --background-color: white;
+  --background-color: hsla(0, 0%, 100%, 1);
   --light-color: #f8f8f8;
   --dark-color: #505050;
-  --text-color: #131313;
-  --link-color: #eb1000;
-  --link-hover-color: #b30c00;
+  --text-color: hsla(0, 0%, 7%, 1);
+  --link-color: hsla(228, 96%, 61%, 1);
+  --link-hover-color: hsla(229, 75%, 46%, 1);
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback, sans-serif;

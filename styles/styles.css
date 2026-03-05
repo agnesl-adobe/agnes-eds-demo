@@ -229,13 +229,13 @@ main img {
 
 /* sections */
 main > .section {
-  margin: 64px;
+  margin: 64px 0;
 }
 
 main > .section > div {
   max-width: 1200px;
   margin: auto;
-  padding: 0 24px;
+  padding: 64px 24px;
 }
 
 main > .section:first-of-type {

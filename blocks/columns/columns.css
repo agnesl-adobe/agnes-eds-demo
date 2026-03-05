@@ -1,7 +1,7 @@
 .columns > div {
   display: flex;
   flex-direction: column;
-  padding-top: 32px 0;
+  padding-top: 32px;
 }
 
 .columns img {

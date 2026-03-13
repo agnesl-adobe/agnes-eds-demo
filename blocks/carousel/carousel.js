@@ -19,9 +19,9 @@ export function startInterval(block) {
       block.loadPercentage = percentage;
       indicator.style.width = `${percentage}%`;
       block.querySelectorAll('.carousel-slide-indicator > button').forEach((ind) => {
-        if (ind != indicator) ind.style.width = '0';
+        if (ind !== indicator) ind.style.width = '0';
       });
-      if (percentage == 0) {
+      if (percentage === 0) {
         block.dataset.activeSlide = (parseInt(block.dataset.activeSlide, 10) + 1) % slides.length;
         showSlide(block, block.dataset.activeSlide);
 
@@ -78,7 +78,7 @@ export function showSlide(block, slideIndex = 0) {
   if (slideIndex >= slides.length) realSlideIndex = 0;
   const activeSlide = slides[realSlideIndex];
   block.querySelectorAll('.carousel-slide-indicator > button').forEach((ind, index) => {
-    if (index != slideIndex) ind.style.width = '0';
+    if (index !== slideIndex) ind.style.width = '0';
   });
   activeSlide.querySelectorAll('a').forEach((link) => link.removeAttribute('tabindex'));
   block.querySelector('.carousel-slides').scrollTo({
